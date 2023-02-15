@@ -1,9 +1,10 @@
 import Logo from "../images/Logo.svg";
+import FooterStyles from "./styles/FooterNav.module.css";
 
 function FooterNav() {
   return (
     <footer>
-    <nav>Doormat Navigation Placeholder
+    <nav className={FooterStyles.nav}>Doormat Navigation Placeholder
       <img src={Logo} alt="Logo" />
       <ul>
         <li>

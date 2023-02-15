@@ -1,0 +1,23 @@
+.special_section_container {
+    width: 85%;
+    margin: 0 auto;
+    padding: 100px 0;
+    max-width: 1280px;
+}
+
+.special_section_title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu_button {
+    padding: 15px 30px;
+    font-size: 16pt;
+    font-weight: 600;
+    background-color: #f4ce14;
+    color: #333333;
+    border-radius: 20px;
+    border: none;
+}
+
