@@ -6,7 +6,7 @@ function FooterNav() {
     <footer>
     <nav className={FooterStyles.nav}>Doormat Navigation Placeholder
       <img src={Logo} alt="Logo" />
-      <ul>
+      <ul className={FooterStyles.navlinks}>
         <li>
           <a href="#home">Home</a>
         </li>
@@ -27,12 +27,12 @@ function FooterNav() {
         </li>
       </ul>
       </nav>
-      <ul className="contact-info">Contacts Placeholder
+      <ul className={FooterStyles.contactlist}>Contacts Placeholder
         <li>Email: info@example.com</li>
         <li>Phone: +1 555 555-5555</li>
         <li>Address: 123 Main St, Anytown, USA</li>
       </ul>
-      <ul className="social-links"> Social Links Placeholder
+      <ul className={FooterStyles.sociallist}> Social Links Placeholder
         <li><a href="#">Facebook</a></li>
         <li><a href="#">Twitter</a></li>
         <li><a href="#">Instagram</a></li>
