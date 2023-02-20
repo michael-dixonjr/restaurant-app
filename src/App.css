@@ -6,7 +6,7 @@ label, input, select, textarea, p {
   font-family: 'Karla';
 }
 
-a:visited, Link:visited, a:link, Link:link {
+/*a:visited, Link:visited, a:link, Link:link {
   text-decoration: none;
   color: black;
-}
+}*/
