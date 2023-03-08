@@ -10,22 +10,19 @@ function FooterNav() {
         <ul className={FooterStyles.navlist}>
           <li className={FooterStyles.listtitle}>Navigation</li>
           <li>
-            <a href="#home">Home</a>
+            <a href="/">Home</a>
           </li>
           <li>
-            <a href="#about">About</a>
+            <a href="/about">About</a>
           </li>
           <li>
-            <a href="#menu">Menu</a>
+            <a href="https://www.picca.com/pdf/picca-menu.pdf">Menu</a>
           </li>
           <li>
-            <a href="#reservations">Reservations</a>
+            <a href="/reservations">Reservations</a>
           </li>
           <li>
             <a href="#orderonline">Order Online</a>
-          </li>
-          <li>
-            <a href="#login">Login</a>
           </li>
         </ul>
         <ul className={FooterStyles.contactlist}>
@@ -37,13 +34,13 @@ function FooterNav() {
         <ul className={FooterStyles.sociallist}>
           <li className={FooterStyles.listtitle}>Socials</li>
           <li>
-            <a href="#">Facebook</a>
+            <a href="https://www.facebook.com/">Facebook</a>
           </li>
           <li>
-            <a href="#">Twitter</a>
+            <a href="https://twitter.com/">Twitter</a>
           </li>
           <li>
-            <a href="#">Instagram</a>
+            <a href="https://www.instagram.com/">Instagram</a>
           </li>
         </ul>
       </nav>

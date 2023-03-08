@@ -3,8 +3,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 15.5rem;
-
+  height: 16.5rem;
   position: relative;
   width: 100%;
 }
@@ -22,6 +21,9 @@
 .heroLeft {
     align-items: left;
     max-width: 400px;
+    height: 100%;
+    color: #ffffff;
+    font-family: 'Markazi Text', sans-serif;
 }
 
 .heroRight {
@@ -56,4 +58,11 @@
     color: #333333;
     border-radius: 20px;
     border: none;
+    transition: padding 0.2s ease-in-out;
+}
+
+.reserveTableButton:hover {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 18px 33px;
 }

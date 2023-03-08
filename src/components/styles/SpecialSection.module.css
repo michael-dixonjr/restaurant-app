@@ -21,5 +21,12 @@
     color: #333333;
     border-radius: 20px;
     border: none;
+    transition: padding 0.2s ease-in-out;
+}
+
+.menu_button:hover {
+    background-color: #495e57;
+    color: #ffffff;
+    padding: 18px 33px;
 }
 

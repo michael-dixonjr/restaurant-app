@@ -122,7 +122,8 @@
 }
 
 .viewAll:hover {
-  background-color: lightgray;
+  background-color: #495e57;
+  color: #ffffff;
 }
 
 .viewAll:active {

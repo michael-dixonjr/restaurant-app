@@ -1,10 +1,7 @@
 * {
-  font-family: 'Markazi Text', 'Karla', serif;
+  font-family: 'Markazi Text', 'Karla', sans-serif;
 }
 
-label, input, select, textarea, p {
-  font-family: 'Karla';
-}
 
 /*a:visited, Link:visited, a:link, Link:link {
   text-decoration: none;

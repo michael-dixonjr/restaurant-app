@@ -1,0 +1,109 @@
+.hero_container {
+  width: 100%;
+  height: 20vh;
+  background-image: url(/src/images/banner1.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero_content {
+  color: #ffffff;
+  background-color: #495e57c3;
+  padding: 1rem;
+  border-radius: 10px;
+  text-align: center;
+
+}
+
+
+
+
+
+.page_wrapper {
+  font-family: 'Karla', serif;
+}
+
+
+
+
+.form_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  color: #495e57;
+  padding: 20px;
+}
+
+.form_container > div {
+    margin-bottom: 1.5rem;
+}
+
+.reservation_form {
+    padding: 2rem 0 0.5rem 0;
+    text-align: center;
+}
+
+.reservation_form fieldset {
+    border: none;
+}
+
+.reservation_form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #495e57;
+    font-weight: bold;
+}
+
+.reservation_form input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #495e57;
+    border-radius: 5px;
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+    font-family: 'Karla', sans-serif;
+}
+
+.reservation_form input:focus {
+    outline: none;
+    border: 1px solid #f4ce14;
+}
+
+.reservation_form select {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #495e57;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-family: 'Karla', sans-serif;
+}
+
+.reservation_form select:focus {
+    outline: none;
+    border: 1px solid #f4ce14;
+}
+
+.reservation_form button {
+  padding: 15px 30px;
+  font-size: 16pt;
+  font-weight: 600;
+  background-color: #f4ce14;
+  color: #333333;
+  border-radius: 20px;
+  border: none;
+  transition: padding 0.2s ease-in-out;
+}
+
+.reservation_form button:hover {
+  background-color: #495e57;
+  color: #ffffff;
+  padding: 18px 33px;
+}

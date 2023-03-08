@@ -26,6 +26,19 @@
 }
 
 .nav li a {
-  color: #333333;
+  color: #495e57;
   text-decoration: none;
+  font-family: 'Karla', sans-serif;
+  font-weight: bold;
+  
+}
+
+
+.nav li a:hover {
+  color: #f4ce14;
+  font-size: 1.1em;
+}
+
+a {
+  transition: font-size 0.3s ease;
 }

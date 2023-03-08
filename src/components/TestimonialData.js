@@ -18,7 +18,7 @@ export const items = [
         imgSrc: "https://xsgames.co/randomusers/avatar.php?g=pixel",
         name: "Mario",
         position: "Food Critic",
-        quote: "If you're looking for authentic Mediterranean cuisine, look no further than this restaurant. The flavors are simply amazing - every dish I've tried has been delicious. The lamb kebab and baklava are a must-try. The atmosphere is warm and welcoming, and the staff goes above and beyond to make sure you have a great dining experience."
+        quote: "If you're looking for authentic Mediterranean cuisine, look no further than this restaurant. The flavors are simply amazing - every dish I've tried has been delicious. The lamb kebab and baklava are a must-try. The atmosphere is warm and welcoming, and the staff goes above and beyond!"
     },
     {
         status: "active",
@@ -32,7 +32,7 @@ export const items = [
         imgSrc: "https://xsgames.co/randomusers/avatar.php?g=male",
         name: "Leander Kurtis",
         position: "Lawyer",
-        quote: "This Mediterranean restaurant is a hidden gem! The atmosphere is cozy and inviting, and the food is exceptional. The baba ghanoush and tabbouleh are fresh and flavorful, and the lamb chops are simply amazing. The staff is friendly and attentive, and I always feel welcomed here. I highly recommend this restaurant!"
+        quote: "This Mediterranean restaurant is a hidden gem! The atmosphere is cozy and inviting, and the food is exceptional. The baba ghanoush and tabbouleh are fresh and flavorful, and the lamb chops are simply amazing. The staff is friendly and attentive, and I always feel welcomed here."
     }
 ];
 
