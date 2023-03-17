@@ -57,3 +57,7 @@
   color: white;
   text-decoration: none;
 }
+
+.nav a:hover {
+  color: #f4ce14;
+}

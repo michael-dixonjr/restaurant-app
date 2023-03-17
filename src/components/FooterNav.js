@@ -22,7 +22,7 @@ function FooterNav() {
             <a href="/reservations">Reservations</a>
           </li>
           <li>
-            <a href="#orderonline">Order Online</a>
+            <a href="/orderonline">Order Online</a>
           </li>
         </ul>
         <ul className={FooterStyles.contactlist}>
