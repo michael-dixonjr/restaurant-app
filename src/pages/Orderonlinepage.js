@@ -1,4 +1,7 @@
+import react from 'react';
 import OrderonlineStyles from '../components/styles/Orderonlinepage.module.css';
+import DoordashImage from '../images/doordash.jpg';
+import UberEatsImage from '../images/ubereats.png';
 
 export default function Orderonlinepage() {
     return (
@@ -20,8 +23,14 @@ export default function Orderonlinepage() {
                     </div>
                     </div>
                     <div className={OrderonlineStyles.ordercards_container}>
-                        <div className={OrderonlineStyles.ordercard1}>card1</div>
-                        <div className={OrderonlineStyles.ordercard2}>card2</div>
+                        <div className={OrderonlineStyles.ordercard}>
+                            <img src={DoordashImage} alt="Doordash" className={OrderonlineStyles.card_image} />
+                            <p className={OrderonlineStyles.card_text}>Order now with DoorDash!</p>
+                        </div>
+                        <div className={OrderonlineStyles.ordercard}>
+                            <img src={UberEatsImage} alt="Uber Eats" className={OrderonlineStyles.card_image} />
+                            <p className={OrderonlineStyles.card_text}>Order now with Uber Eats!</p>
+                        </div>
                     </div>
                 </section>
             </div>
