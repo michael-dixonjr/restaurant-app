@@ -5,6 +5,12 @@
     max-width: 1280px;
     justify-content: space-around;
     overflow: hidden;
+    text-decoration: none;
+}
+
+.special_section_container a {
+    text-decoration: none;
+    color: inherit;
 }
 
 .special_section_title {

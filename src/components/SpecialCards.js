@@ -35,8 +35,8 @@ const SpecialCards = () => {
     const description = menu.description;
 
     return (
-      <div>
-        <a href="https://www.picca.com/pdf/picca-menu.pdf" target="_blank" rel="noopener noreferrer">
+      <div className={SpecialCardStyles.special_card_wrapper}>
+        <a href="https://www.picca.com/pdf/picca-menu.pdf" target="_blank" rel="noopener noreferrer" className={SpecialCardStyles.special_card_links}>
           <div className={SpecialCardStyles.special_card_container}>
             <div className={SpecialCardStyles.image_container}>
               <img src={image} alt="Special dessert" />
