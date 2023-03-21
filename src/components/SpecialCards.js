@@ -36,19 +36,21 @@ const SpecialCards = () => {
 
     return (
       <div>
-        <div className={SpecialCardStyles.special_card_container}>
-          <div className={SpecialCardStyles.image_container}>
-            <img src={image} alt="Special dessert" />
-          </div>
-          <div className={SpecialCardStyles.special_card_text}>
-            <div className={SpecialCardStyles.special_card_title}>
-              <h3>{title}</h3>
-              <h3 className={SpecialCardStyles.price_text}>{price}</h3>
+        <a href="https://www.picca.com/pdf/picca-menu.pdf" target="_blank" rel="noopener noreferrer">
+          <div className={SpecialCardStyles.special_card_container}>
+            <div className={SpecialCardStyles.image_container}>
+              <img src={image} alt="Special dessert" />
             </div>
-            <p>{description}</p>
-            <h4>Order a delivery</h4>
+            <div className={SpecialCardStyles.special_card_text}>
+              <div className={SpecialCardStyles.special_card_title}>
+                <h3>{title}</h3>
+                <h3 className={SpecialCardStyles.price_text}>{price}</h3>
+              </div>
+              <p>{description}</p>
+              <h4>Order a delivery</h4>
+            </div>
           </div>
-        </div>
+        </a>
       </div>
     );
   });

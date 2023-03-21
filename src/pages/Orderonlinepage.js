@@ -23,14 +23,18 @@ export default function Orderonlinepage() {
                     </div>
                     </div>
                     <div className={OrderonlineStyles.ordercards_container}>
+                    <a href="https://www.doordash.com" target="_blank" rel="noopener noreferrer" className={OrderonlineStyles.card_link}>
                         <div className={OrderonlineStyles.ordercard}>
                             <img src={DoordashImage} alt="Doordash" className={OrderonlineStyles.card_image} />
                             <p className={OrderonlineStyles.card_text}>Order now with DoorDash!</p>
                         </div>
+                    </a>
+                    <a href="https://www.ubereats.com" target="_blank" rel="noopener noreferrer" className={OrderonlineStyles.card_link}>
                         <div className={OrderonlineStyles.ordercard}>
                             <img src={UberEatsImage} alt="Uber Eats" className={OrderonlineStyles.card_image} />
                             <p className={OrderonlineStyles.card_text}>Order now with Uber Eats!</p>
                         </div>
+                    </a>
                     </div>
                 </section>
             </div>

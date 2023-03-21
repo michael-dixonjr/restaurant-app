@@ -16,7 +16,7 @@ function FooterNav() {
             <a href="/about">About</a>
           </li>
           <li>
-            <a href="https://www.picca.com/pdf/picca-menu.pdf">Menu</a>
+            <a href="https://www.picca.com/pdf/picca-menu.pdf" target="_blank" rel="noopener noreferrer">Menu</a>
           </li>
           <li>
             <a href="/reservations">Reservations</a>
@@ -34,13 +34,13 @@ function FooterNav() {
         <ul className={FooterStyles.sociallist}>
           <li className={FooterStyles.listtitle}>Socials</li>
           <li>
-            <a href="https://www.facebook.com/">Facebook</a>
+            <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">Facebook</a>
           </li>
           <li>
-            <a href="https://twitter.com/">Twitter</a>
+            <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">Twitter</a>
           </li>
           <li>
-            <a href="https://www.instagram.com/">Instagram</a>
+            <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">Instagram</a>
           </li>
         </ul>
       </nav>

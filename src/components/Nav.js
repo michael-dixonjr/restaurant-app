@@ -15,7 +15,7 @@ const Nav = () => {
               <a href="/about">About</a>
             </li>
             <li>
-              <a href="https://www.picca.com/pdf/picca-menu.pdf">Menu</a>
+              <a href="https://www.picca.com/pdf/picca-menu.pdf" target="_blank" rel="noopener noreferrer">Menu</a>
             </li>
             <li>
               <a href="/reservations">Reservations</a>
