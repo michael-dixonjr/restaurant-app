@@ -1,6 +1,7 @@
 import Logo from "../images/Logo.svg";
 import NavStyles from "./styles/Nav.module.css";
 import { useState } from 'react';
+import { Link } from "react-router-dom";
 
 const Nav = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -24,19 +25,19 @@ const Nav = () => {
           </button>
           <ul className={`${NavStyles.menu} ${menuOpen ? NavStyles.active : ''}`}>
             <li>
-              <a href="/">Home</a>
+              <Link to="/">Home</Link>
             </li>
             <li>
-              <a href="/about">About</a>
+              <Link to="/about">About</Link>
             </li>
             <li>
               <a href="https://www.picca.com/pdf/picca-menu.pdf" target="_blank" rel="noopener noreferrer">Menu</a>
             </li>
             <li>
-              <a href="/reservations">Reservations</a>
+              <Link to="/reservations">Reservations</Link>
             </li>
             <li>
-              <a href="/orderonline">Order Online</a>
+              <Link to="/orderonline">Order Online</Link>
             </li>
           </ul>
         </nav>

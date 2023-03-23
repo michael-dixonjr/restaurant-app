@@ -1,5 +1,6 @@
 import Logo2 from "../images/Logo2.png";
 import FooterStyles from "./styles/FooterNav.module.css";
+import { Link } from "react-router-dom";
 
 function FooterNav() {
   return (
@@ -10,19 +11,19 @@ function FooterNav() {
         <ul className={FooterStyles.navlist}>
           <li className={FooterStyles.listtitle}>Navigation</li>
           <li>
-            <a href="/">Home</a>
+            <Link to="/">Home</Link>
           </li>
           <li>
-            <a href="/about">About</a>
+            <Link to="/about">About</Link>
           </li>
           <li>
             <a href="https://www.picca.com/pdf/picca-menu.pdf" target="_blank" rel="noopener noreferrer">Menu</a>
           </li>
           <li>
-            <a href="/reservations">Reservations</a>
+            <Link to="/reservations">Reservations</Link>
           </li>
           <li>
-            <a href="/orderonline">Order Online</a>
+            <Link to="/orderonline">Order Online</Link>
           </li>
         </ul>
         <ul className={FooterStyles.contactlist}>
