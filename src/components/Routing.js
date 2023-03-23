@@ -6,7 +6,7 @@ import Reservationpage from '../pages/Reservationpage';
 
 export default function Routing() {
   return (
-    <Routes>
+    <Routes basename="/restaurant-app">
       <Route path="/" element={<Homepage/>}/>
       <Route path="/about" element={<Aboutpage/>}/>
       <Route path="/orderonline" element={<Orderpage/>}/>
