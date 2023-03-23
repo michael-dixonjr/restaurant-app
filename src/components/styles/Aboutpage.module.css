@@ -17,13 +17,15 @@
     align-items: center;
   }
 
-    .hero_content {
-        color: #ffffff;
-        background-color: #495e57c3;
-        padding: 1rem;
-        border-radius: 10px;
-        text-align: center;
-    }
+.hero_content {
+    color: #ffffff;
+    background-color: #495e57c3;
+    padding: 1rem;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
 
 .about_container {
     background-color: #f4ce14;
@@ -58,4 +60,36 @@
 .about_image_container {
     width: 50%;
     padding: 0 2rem;
+}
+
+/* mobile settings */
+
+@media (max-width: 768px) {
+    .hero_content {
+        max-height: 13vh;
+    }
+
+    .hero_content p {
+        display: none;
+    }
+
+    .about_container {
+        flex-direction: column;
+    }
+
+    .about_content_container {
+        width: 85%;
+        padding: 0;
+        text-align: center;
+    }
+
+    .about_image_container {
+        width: 90%;
+        padding: 0;
+    }
+
+    .about_image_container img {
+        max-width: 100%;
+        height: auto;
+    }
 }

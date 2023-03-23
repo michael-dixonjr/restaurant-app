@@ -1,4 +1,3 @@
-import react from 'react';
 import OrderonlineStyles from '../components/styles/Orderonlinepage.module.css';
 import DoordashImage from '../images/doordash.jpg';
 import UberEatsImage from '../images/ubereats.png';
@@ -11,15 +10,14 @@ export default function Orderonlinepage() {
                     <div className={OrderonlineStyles.hero_content}>
                         <h2>Experience the perfect balance of tradition and luxury.</h2>
                         <p>At Little Lemon, we take great pride in providing our customers with the greatest luxurious experience with a touch of <em>tradition</em>.</p>
-                        <p>Book a table with us to share in this experience.</p>
+                        <p>Order a delivery to share in this experience.</p>
                     </div>
                 </section>
                 <section className={OrderonlineStyles.order_container}>
                  <div className={OrderonlineStyles.order_content_container}>
                     <div className={OrderonlineStyles.order_content}>
                         <h2>Order Up!</h2>
-                        <p>Little Lemon was founded in 2019 by a group of friends who wanted to bring a new experience to the Chicago restaurant scene. We wanted to create a place where people could come together and enjoy a delicious meal in a luxurious setting.</p>
-                        <p>Our menu is inspired by traditional Mediterranean recipes, but we have added a modern twist to each dish to make them more accessible to a wider audience.</p>
+                        <p>Don't miss out on the vibrant flavors of Little Lemon's Mediterranean cuisine, perfectly crafted with a modern twist! Indulge in our delectable dishes and enjoy the luxury of a fine dining experience right in the comfort of your own home. Click the "Order Now" button and treat yourself to a culinary adventure that will delight your senses and leave you craving for more. Experience the taste of Little Lemon today – your taste buds will thank you!</p>
                     </div>
                     </div>
                     <div className={OrderonlineStyles.ordercards_container}>

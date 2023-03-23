@@ -26,6 +26,16 @@
     font-family: 'Markazi Text', sans-serif;
 }
 
+@media (max-width: 768px) {
+    .heroContainer {
+        padding-bottom: 10vh;
+    }
+
+    .heroBackground {
+        height: 20rem;
+    }
+}
+
 .heroRight {
     align-items: right;
     margin-right: 10rem;

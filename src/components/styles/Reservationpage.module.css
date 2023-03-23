@@ -39,7 +39,7 @@
   height: 100%;
   background-color: #EDEFEE;
   color: #495e57;
-  padding: 20px;
+  padding-bottom: 10vh;
 }
 
 .form_container > div {
@@ -106,4 +106,20 @@
   background-color: #495e57;
   color: #ffffff;
   padding: 18px 33px;
+}
+
+/* mobile settings */
+
+@media (max-width: 768px) {
+  .hero_content {
+      max-height: 13vh;
+  }
+
+  .hero_content p {
+      display: none;
+  }
+
+  .form_container {
+      text-align: center;
+  }
 }
