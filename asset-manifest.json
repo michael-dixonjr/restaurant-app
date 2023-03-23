@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/restaurant-app/static/css/main.aca02903.css",
+    "main.js": "/restaurant-app/static/js/main.b8891c1d.js",
+    "static/js/787.dd438415.chunk.js": "/restaurant-app/static/js/787.dd438415.chunk.js",
+    "static/media/special2.svg": "/restaurant-app/static/media/special2.29ea078fea3d3120ed22402e901b5bbc.svg",
+    "static/media/special1.jpg": "/restaurant-app/static/media/special1.bed423a1fab5b210e347.jpg",
+    "static/media/heroimage.jpg": "/restaurant-app/static/media/heroimage.e8abf5b772b6817189aa.jpg",
+    "static/media/banner2.png": "/restaurant-app/static/media/banner2.3c44fd051bbdf211bbff.png",
+    "static/media/banner3.png": "/restaurant-app/static/media/banner3.03a79f307bf9639ac85a.png",
+    "static/media/banner1.png": "/restaurant-app/static/media/banner1.20c00ad507563dc9bc63.png",
+    "static/media/aboutimage.png": "/restaurant-app/static/media/aboutimage.ab1d5491ef5c7d328665.png",
+    "static/media/Logo2.png": "/restaurant-app/static/media/Logo2.2c859235d6c57bb54176.png",
+    "static/media/Logo.svg": "/restaurant-app/static/media/Logo.6c132dfefa69396bba43f72aa595e62f.svg",
+    "static/media/ubereats.png": "/restaurant-app/static/media/ubereats.0018578cd753b7f8dc1f.png",
+    "static/media/doordash.jpg": "/restaurant-app/static/media/doordash.1077e8c9a2285cdc3ef0.jpg",
+    "static/media/quote-right.svg": "/restaurant-app/static/media/quote-right.dd06c935a3791ab54236.svg",
+    "static/media/quote-left.svg": "/restaurant-app/static/media/quote-left.827d7cfba22e9b31bdb7.svg",
+    "index.html": "/restaurant-app/index.html",
+    "static/media/chevron-right-solid.svg": "/restaurant-app/static/media/chevron-right-solid.56db5a0d6d4f8d1d4dfba18d8e0427e5.svg",
+    "static/media/chevron-left-solid.svg": "/restaurant-app/static/media/chevron-left-solid.a09e96c7cc72c4778f8e231fcbc770b8.svg",
+    "static/media/circle-solid.svg": "/restaurant-app/static/media/circle-solid.dac10d901ece0552012ea0e074e3e4f0.svg",
+    "main.aca02903.css.map": "/restaurant-app/static/css/main.aca02903.css.map",
+    "main.b8891c1d.js.map": "/restaurant-app/static/js/main.b8891c1d.js.map",
+    "787.dd438415.chunk.js.map": "/restaurant-app/static/js/787.dd438415.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aca02903.css",
+    "static/js/main.b8891c1d.js"
+  ]
+}
